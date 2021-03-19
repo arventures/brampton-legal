@@ -1,46 +1,44 @@
-url: https://y7kim.github.io
+url: https://brampton.legal
 baseurl:
 
 # Site settings
 title: Legal Services In Brampton, ON
 email: your-email@domain.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-
+description: 'Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.'
 
 # Team names, titles and social links
 people:
-- name: Kay Garland
-  pic: 1
-  position: Lead Designer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
+  - name: Amanpreet Nagpal
+    pic: 4
+    position: Barrister & Solicitor
+    social:
+      - title: facebook
+        url: https://facebook.com
+      - title: map-marker
+        url: https://goo.gl/maps/hj3StoM58tKBnvA76
+    phone: 123-456-789
 
-- name: Larry Parker
-  pic: 2
-  position: Lead Marketer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: linkedin
-      url: #
+  # - name: Larry Parker
+  #   pic: 2
+  #   position: Lead Marketer
+  #   social:
+  #     - title: twitter
+  #       url: #
+  #     - title: facebook
+  #       url: #
+  #     - title: linkedin
+  #       url: #
 
-- name: Diana Petersen
-  pic: 3
-  position: Lead Developer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: google-plus
-      url: #
+  # - name: Diana Petersen
+  #   pic: 3
+  #   position: Lead Developer
+  #   social:
+  #     - title: twitter
+  #       url: #
+  #     - title: facebook
+  #       url: #
+  #     - title: google-plus
+  #       url: #
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
@@ -48,7 +46,6 @@ social:
     url: http://google.com
   - title: map-marker
     url: https://goo.gl/maps/hj3StoM58tKBnvA76
-
 
 # Postal address (add as many lines as necessary)
 address:
