@@ -1,8 +1,8 @@
 <!-- Clients Aside -->
     <aside class="clients">
         <div class="container">
-            <div class="row">
-                <div class="col-md-3 col-sm-6">
+            <div class="row" style="display: grid; place-items: center;">
+                <!-- <div class="col-md-3 col-sm-6">
                     <a href="#">
                         <img src="img/logos/envato.jpg" class="img-responsive img-centered" alt="">
                     </a>
@@ -21,7 +21,32 @@
                     <a href="#">
                         <img src="img/logos/creative-market.jpg" class="img-responsive img-centered" alt="">
                     </a>
-                </div>
+                </div> -->
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2882.182229132106!2d-79.70146318403881!3d43.74831247911822!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b15618e1c24fb%3A0xff19598e76e7aac9!2sDeol%20%26%20Nagpal%20Law%20Firm%20LLP!5e0!3m2!1sen!2sca!4v1619991480877!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                <div id="map"></div>
+
+                <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+                <!-- <script
+                  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBIwzALxUPNbatRBj3Xi1Uhp0fFzwWNBkE&callback=initMap&libraries=&v=weekly"
+                  async
+                ></script> -->
             </div>
         </div>
     </aside>
+<script>
+  function initMap() {
+  // The location of Uluru
+  const uluru = { lat: -79.69879170386172, lng: 43.74809546912409 };
+    console.log(`uluru is `, uluru);
+  // The map, centered at Uluru
+  const map = new google.maps.Map(document.getElementById("map"), {
+    zoom: 4,
+    center: uluru,
+  });
+  // The marker, positioned at Uluru
+  const marker = new google.maps.Marker({
+    position: uluru,
+    map: map,
+  });
+}
+</script>
